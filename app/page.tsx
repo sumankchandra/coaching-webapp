@@ -14,13 +14,27 @@ export default function Home() {
   e.preventDefault()
   setLoading(true)
 
-  const { error } = await supabase.from('leads').insert([
-    {
+const { error } = await supabase.from("leads").insert([
+  {
+    full_name: fullName,
+    email,
+    phone,
+  },
+]);
+
+if (!error) {
+  await fetch("/api/send-email", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
       full_name: fullName,
       email,
       phone,
-    },
-  ])
+    }),
+  });
+}
 
   setLoading(false)
 
