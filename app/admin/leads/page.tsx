@@ -6,7 +6,7 @@ import { supabase } from "@/lib/supabase";
 
 export default function LeadsPage() {
   const router = useRouter();
-  const [leads, setLeads] = useState([]);
+  const [leads, setLeads] = useState<any[]>([]);
   const [search, setSearch] = useState("");
 
   useEffect(() => {
