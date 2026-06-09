@@ -20,6 +20,10 @@ const { error } = await supabase.from("leads").insert([
     email,
     phone,
     source: "website",
+   environment:
+  typeof window !== "undefined"
+    ? window.location.hostname
+    : "unknown",
   },
 ]);
 

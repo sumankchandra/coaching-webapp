@@ -103,6 +103,7 @@ return (
           <th>Email</th>
           <th>Created</th>
           <th>Status</th>
+          <th>Environment</th>
         </tr>
       </thead>
 
@@ -123,6 +124,18 @@ return (
                 <option value="Enrolled">Enrolled</option>
               </select>
             </td>
+            <td>
+  <span
+    className={`px-2 py-1 rounded text-xs ${
+      lead.environment === 'sumanchandracoaching.com' ||
+      lead.environment === 'www.sumanchandracoaching.com'
+        ? 'bg-green-100 text-green-700'
+        : 'bg-yellow-100 text-yellow-700'
+    }`}
+  >
+    {lead.environment}
+  </span>
+</td>
           </tr>
         ))}
       </tbody>
