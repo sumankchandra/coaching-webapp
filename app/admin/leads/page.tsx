@@ -126,14 +126,15 @@ return (
             </td>
             <td>
   <span
-    className={`px-2 py-1 rounded text-xs ${
-      lead.environment === 'sumanchandracoaching.com' ||
-      lead.environment === 'www.sumanchandracoaching.com'
-        ? 'bg-green-100 text-green-700'
-        : 'bg-yellow-100 text-yellow-700'
+    className={`px-2 py-1 rounded text-xs font-medium ${
+      lead.environment?.includes("sumanchandracoaching.com")
+        ? "bg-green-100 text-green-700"
+        : "bg-yellow-100 text-yellow-700"
     }`}
   >
-    {lead.environment}
+    {lead.environment?.includes("sumanchandracoaching.com")
+      ? "PRODUCTION"
+      : "DEVELOPMENT"}
   </span>
 </td>
           </tr>
