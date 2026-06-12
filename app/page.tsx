@@ -83,17 +83,20 @@ if (!error) {
 
     {/* Left Column */}
     <div className="max-w-xl">
-      <h1 className="text-4xl md:text-6xl font-bold leading-[1.1] tracking-tight text-slate-800">
-        Transform Your Life With Purpose-Driven Coaching
-      </h1>
+     <h1 className="text-4xl md:text-6xl font-bold leading-[1.05] text-slate-800">
+  Discover Your Purpose.
+  <br />
+  Create a Meaningful Next Chapter.
+</h1>
 
-      <p className="mt-6 text-lg md:text-xl text-gray-700 max-w-lg leading-relaxed">
-        Gain clarity, confidence, and direction through personalized coaching
-        programs designed to help you unlock your full potential.
-      </p>
+<p className="mt-6 text-lg md:text-xl text-gray-700 max-w-xl leading-relaxed">
+  I help successful mid-career professionals gain clarity,
+  align their lives with their values, and create a future
+  filled with purpose, fulfillment, and growth.
+</p>
 
       <p className="mt-4 text-slate-600 font-medium">
-        Executive Coach • Leadership Mentor • Transformation Advisor
+        Purpose Coach • Transformation Mentor • Personal Growth Guide
       </p>
 
       <a
@@ -104,13 +107,82 @@ if (!error) {
       </a>
     </div>
 
-    {/* Right Column */}
-    <div className="flex justify-center md:justify-end">
-      <img
-        src="/coach-hero.jpg"
-        alt="Suman Chandra"
-        className="w-full max-w-[280px] rounded-3xl shadow-[0_20px_50px_rgba(0,0,0,0.15)]"
-      />
+{/* Right Column */}
+<div className="flex justify-center md:justify-end">
+  <img
+    src="/coach-hero.jpg"
+    alt="Suman Chandra"
+    className="w-full max-w-[400px] lg:max-w-[450px] rounded-3xl shadow-[0_20px_50px_rgba(0,0,0,0.15)]"
+  />
+</div>
+
+</div>
+</section>
+
+{/* Is This Coaching For You */}
+<section className="w-full bg-slate-50 py-20">
+  <div className="max-w-6xl mx-auto px-6">
+
+    <h2 className="text-4xl md:text-4xl md:text-5xl font-bold text-center mb-4 text-slate-800">
+      <p className="text-center text-gray-600 mb-12 text-lg">
+  For mid-career professionals seeking deeper meaning, purpose, and fulfillment.
+</p>
+      Is This Coaching For You?
+    </h2>
+
+    <div className="bg-white rounded-2xl p-10 shadow-sm">
+
+     
+      <ul className="grid md:grid-cols-3 gap-8 text-lg text-gray-700">
+
+  <li className="leading-relaxed">
+    <div className="flex items-start gap-3">
+  <span className="text-green-600 font-bold">✓</span>
+  <span>You have achieved professional success but feel something important is missing.</span>
+</div>
+  </li>
+
+  <li className="leading-relaxed">
+    <div className="flex items-start gap-3">
+  <span className="text-green-600 font-bold">✓</span>
+  <span>You are wondering what the next chapter of your life should be.</span>
+</div>
+  </li>
+
+  <li className="leading-relaxed">
+    
+    <div className="flex items-start gap-3">
+  <span className="text-green-600 font-bold">✓</span>
+  <span>You want greater clarity, purpose, and fulfillment.</span>
+</div>
+  </li>
+
+  <li className="leading-relaxed">
+    
+    <div className="flex items-start gap-3">
+  <span className="text-green-600 font-bold">✓</span>
+  <span>You feel called to make a deeper contribution beyond career success.</span>
+</div>
+  </li>
+
+  <li className="leading-relaxed">
+    
+    <div className="flex items-start gap-3">
+  <span className="text-green-600 font-bold">✓</span>
+  <span>You want your life and work to reflect your core values.</span>
+</div>
+  </li>
+
+  <li className="leading-relaxed">
+    
+    <div className="flex items-start gap-3">
+  <span className="text-green-600 font-bold">✓</span>
+  <span>You are seeking meaningful personal transformation and lasting growth.</span>
+</div>
+  </li>
+
+</ul>
+
     </div>
 
   </div>
@@ -122,7 +194,7 @@ if (!error) {
   <div className="max-w-6xl mx-auto">
 
     <h2 className="text-3xl font-bold text-center mb-4">
-      Coaching Services
+      Coaching Programs
     </h2>
 
     <p className="text-center text-gray-600 mb-10">
@@ -138,9 +210,11 @@ if (!error) {
     Discovery Session
   </h3>
 
-  <p className="text-gray-600 mb-6">
-    Gain clarity and actionable next steps in one focused session.
-  </p>
+  <ul className="text-gray-600 mb-6 text-left space-y-2 pl-4">
+  <li>✓ Clarify your biggest challenge</li>
+  <li>✓ Identify next steps</li>
+  <li>✓ Leave with a personal action plan</li>
+</ul>
 
   <p className="text-4xl font-bold mb-6">
     $99
@@ -164,9 +238,11 @@ if (!error) {
           4-Week Coaching Program
         </h3>
 
-        <p className="text-gray-600 mb-6">
-          Build momentum and achieve meaningful progress in 4 weeks.
-        </p>
+        <ul className="text-gray-600 mb-6 text-left space-y-2 pl-4">
+  <li>✓ Gain clarity on priorities</li>
+  <li>✓ Build empowering habits</li>
+  <li>✓ Create momentum and accountability</li>
+</ul>
 
         <p className="text-4xl font-bold mb-6">
           $499
@@ -188,9 +264,11 @@ if (!error) {
           90-Day Transformation Program
         </h3>
 
-        <p className="text-gray-600 mb-6">
-            Create lasting personal and professional transformation in 90 days.
-        </p>
+        <ul className="text-gray-600 mb-6 text-left space-y-2 pl-4">
+  <li>✓ Discover your purpose</li>
+  <li>✓ Align life with your values</li>
+  <li>✓ Create a compelling vision for your future</li>
+</ul>
 
         <p className="text-4xl font-bold mb-6">
           $1499
@@ -225,48 +303,64 @@ if (!error) {
   </span>
 
   <span className="bg-white border px-4 py-2 rounded-full shadow-sm">
-    Leadership Development
+    Purpose Coaching
   </span>
 
   <span className="bg-white border px-4 py-2 rounded-full shadow-sm">
-    Career Growth
+    Personal Transformation
   </span>
 
   <span className="bg-white border px-4 py-2 rounded-full shadow-sm">
-    Executive Presence
+    Meaning & Fulfillment
   </span>
 
   <span className="bg-white border px-4 py-2 rounded-full shadow-sm">
-    Purpose-Driven Coaching
+    Values-driven Transformation
   </span>
 </div>
-<p className="text-2xl font-medium text-center text-slate-800 mb-10">
-  Hi, I'm Suman. My mission is to help professionals gain clarity,
-  build confidence, and create meaningful personal and professional
-  transformation.
+<p className="text-2xl font-medium text-center text-slate-800 mb-10 leading-relaxed">
+  Hi, I'm Suman.
+  <br />
+  I help professionals discover their life purpose,
+align their lives with their values, and create a meaningful next
+chapter filled with clarity, fulfillment, and growth.
 </p>
-    <div className="bg-white rounded-2xl p-8 shadow-sm">
+   <div className="bg-white rounded-2xl p-8 shadow-sm">
 
-      <p className="text-lg text-gray-700 mb-4">
-        I bring over 25 years of experience leading technology,
-        digital transformation, product delivery, and organizational
-        change initiatives across global organizations.
-      </p>
+  <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+    Over the last 25+ years, I have worked with professionals,
+    leaders, and teams through periods of growth, change,
+    uncertainty, and transformation.
+  </p>
 
-      <p className="text-lg text-gray-700 mb-4">
-        Throughout my career, I have helped individuals and teams
-        navigate complexity, build confidence, improve leadership
-        effectiveness, and achieve meaningful outcomes.
-      </p>
+  <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+    Throughout that journey, I observed a common challenge.
+    Many successful people achieve external success yet still
+    find themselves asking deeper questions:
+  </p>
 
-      <p className="text-lg text-gray-700">
-        My coaching approach combines practical experience,
-        structured guidance, accountability, and a deep commitment
-        to helping people unlock their potential and create lasting
-        personal and professional growth.
-      </p>
+  <div className="bg-slate-50 border-l-4 border-slate-700 p-6 rounded-lg mb-6">
+    <p className="italic text-lg text-slate-700 mb-2">
+      "What do I really want?"
+    </p>
 
-    </div>
+    <p className="italic text-lg text-slate-700 mb-2">
+      "What's next for me?"
+    </p>
+
+    <p className="italic text-lg text-slate-700">
+      "How can I live a more meaningful and fulfilling life?"
+    </p>
+  </div>
+
+  <p className="text-lg text-gray-700 leading-relaxed">
+    My coaching combines practical life experience, deep listening,
+    powerful questions, and structured accountability to help
+    clients gain clarity, align their lives with their values,
+    and take meaningful action toward the future they truly want.
+  </p>
+
+</div>
   </div>
 </section>
 {/* Testimonials Section */}
