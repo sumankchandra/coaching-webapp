@@ -73,52 +73,91 @@ if (!error) {
     </a>
   </div>
 </nav>
-
 {/* Hero Section */}
 <section
   id="home"
   className="px-6 py-24"
 >
-  <div className="max-w-6xl mx-auto grid md:grid-cols-[1.2fr_0.8fr] gap-12 items-center">
+  <div className="max-w-6xl mx-auto grid md:grid-cols-[1.6fr_0.4fr] gap-8 lg:gap-10 items-center">
 
     {/* Left Column */}
-    <div className="max-w-xl">
-     <h1 className="text-4xl md:text-6xl font-bold leading-[1.05] text-slate-800">
-  Discover Your Purpose.
-  <br />
-  Create a Meaningful Next Chapter.
-</h1>
+    <div className="max-w-none">
 
-<p className="mt-6 text-lg md:text-xl text-gray-700 max-w-xl leading-relaxed">
-  I help successful mid-career professionals gain clarity,
-  align their lives with their values, and create a future
-  filled with purpose, fulfillment, and growth.
+      <p className="text-3xl md:text-4xl font-serif font-bold tracking-[0.12em] text-indigo-900">
+  ANVESHA
+  <span className="ml-2 text-xl md:text-2xl font-sans font-medium tracking-normal text-slate-600">
+    Coaching
+  </span>
 </p>
 
-      <p className="mt-4 text-slate-600 font-medium">
-        Purpose Coach • Transformation Mentor • Personal Growth Guide
+      <h1 className="mt-5 text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.05] text-slate-800">
+  <span className="whitespace-nowrap">
+    Discover Your Purpose.
+  </span>
+  <br />
+  Design Your Future.
+</h1>
+
+      <p className="mt-6 text-xl text-slate-700 font-medium leading-relaxed">
+        Helping professionals gain clarity, discover their purpose,
+        and design a meaningful future.
       </p>
+
+      <p className="mt-5 text-lg text-gray-700 leading-relaxed">
+        Whether you're navigating a career transition, questioning your
+        next chapter, or seeking greater meaning beyond success, I help
+        you align your life, work, and values to create lasting
+        fulfillment and purposeful growth.
+      </p>
+
+      <div className="mt-6 border-l-4 border-slate-300 pl-4">
+        <p className="text-slate-800 font-semibold">
+          With Suman Chandra
+        </p>
+        <p className="text-slate-600">
+          Life Coach | Life Purpose Institute (Expected Aug 2026)
+        </p>
+      </div>
+
 
       <a
         href="#contact"
         className="inline-block mt-8 bg-slate-800 text-white px-8 py-4 rounded-xl hover:bg-slate-700 transition"
       >
-        Book Complimentary Session
+        Book a Complimentary Discovery Session
       </a>
+
     </div>
 
-{/* Right Column */}
-<div className="flex justify-center md:justify-end">
-  <img
-    src="/coach-hero.jpg"
-    alt="Suman Chandra"
-    className="w-full max-w-[400px] lg:max-w-[450px] rounded-3xl shadow-[0_20px_50px_rgba(0,0,0,0.15)]"
-  />
-</div>
+    {/* Right Column */}
+    <div className="flex justify-center md:justify-end md:self-start">
+      <img
+        src="/coach-hero.jpg"
+        alt="Suman Chandra"
+        className="w-full max-w-[430px] lg:max-w-[480px] rounded-3xl shadow-[0_20px_50px_rgba(0,0,0,0.15)]"
+      />
+    </div>
 
-</div>
+  </div>
 </section>
+{/* Why Anvesha Section */}
+<section className="px-6 py-16 bg-slate-50">
+  <div className="max-w-4xl mx-auto text-center">
 
+    <h2 className="text-2xl md:text-3xl font-serif font-semibold text-slate-800">
+      Why Anvesha?
+    </h2>
+
+    <p className="mt-6 text-lg md:text-xl text-gray-700 leading-relaxed">
+      Anvesha means <span className="font-semibold text-indigo-900">
+        "the seeker"
+      </span> — a journey of exploring deeper questions,
+      discovering your purpose, and creating a future aligned
+      with your values.
+    </p>
+
+  </div>
+</section>
 {/* Is This Coaching For You */}
 <section className="w-full bg-slate-50 py-20">
   <div className="max-w-6xl mx-auto px-6">
