@@ -164,7 +164,7 @@ if (!error) {
 
     <h2 className="text-4xl md:text-4xl md:text-5xl font-bold text-center mb-4 text-slate-800">
       <p className="text-center text-gray-600 mb-12 text-lg">
-  For mid-career professionals seeking deeper meaning, purpose, and fulfillment.
+  For professionals seeking deeper meaning, purpose, and fulfillment.
 </p>
       Is This Coaching For You?
     </h2>
