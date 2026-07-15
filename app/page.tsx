@@ -500,7 +500,7 @@ chapter filled with clarity, fulfillment, and growth.
   <div className="max-w-6xl mx-auto px-6 text-center">
 
     <h3 className="text-xl font-semibold mb-4">
-      Suman Chandra Coaching
+      Anvesha Coaching
     </h3>
 
     <p className="text-gray-300 mb-4">
@@ -538,7 +538,7 @@ chapter filled with clarity, fulfillment, and growth.
     </div>
 
     <p className="text-sm text-gray-400">
-      © {new Date().getFullYear()} Suman Chandra Coaching. All rights reserved.
+      © {new Date().getFullYear()} Anvesha Coaching. All rights reserved.
     </p>
 
   </div>
