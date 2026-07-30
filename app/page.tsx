@@ -99,15 +99,11 @@ if (!error) {
 </h1>
 
       <p className="mt-6 text-xl text-slate-700 font-medium leading-relaxed">
-        Helping professionals gain clarity, discover their purpose,
-        and design a meaningful future.
+        Helping professionals gain clarity, live with purpose, and create a meaningful future
       </p>
 
       <p className="mt-5 text-lg text-gray-700 leading-relaxed">
-        Whether you're navigating a career transition, questioning your
-        next chapter, or seeking greater meaning beyond success, I help
-        you align your life, work, and values to create lasting
-        fulfillment and purposeful growth.
+        Whether you’re at a career crossroads, questioning what’s next, or feeling called to something more, I help you gain clarity, reconnect with your purpose, and create a life and future aligned with what matters most.
       </p>
 
       <div className="mt-6 border-l-4 border-slate-300 pl-4">
@@ -115,7 +111,7 @@ if (!error) {
           With Suman Chandra
         </p>
         <p className="text-slate-600">
-          Life Coach | Life Purpose Institute (Expected Aug 2026)
+          Certified Life Coach | Purpose & Life Transformation Coach
         </p>
       </div>
 
@@ -162,71 +158,97 @@ if (!error) {
 <section className="w-full bg-slate-50 py-20">
   <div className="max-w-6xl mx-auto px-6">
 
-    <h2 className="text-4xl md:text-4xl md:text-5xl font-bold text-center mb-4 text-slate-800">
-      <p className="text-center text-gray-600 mb-12 text-lg">
-  For professionals seeking deeper meaning, purpose, and fulfillment.
-</p>
+    <h2 className="text-4xl md:text-5xl font-bold text-center mb-5 text-slate-800">
       Is This Coaching For You?
     </h2>
 
-    <div className="bg-white rounded-2xl p-10 shadow-sm">
+    <p className="max-w-3xl mx-auto text-center text-gray-700 text-lg font-semibold leading-relaxed mb-12">
+      You may be successful in your career but feel ready to explore what
+      greater meaning, purpose, and fulfillment could look like in your next chapter.
+    </p>
 
-     
-      <ul className="grid md:grid-cols-3 gap-8 text-lg text-gray-700">
+    <div className="bg-white rounded-2xl p-8 md:p-10 shadow-sm">
 
-  <li className="leading-relaxed">
-    <div className="flex items-start gap-3">
-  <span className="text-green-600 font-bold">✓</span>
-  <span>You have achieved professional success but feel something important is missing.</span>
-</div>
-  </li>
+      <ul className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-7 text-base text-gray-700">
 
-  <li className="leading-relaxed">
-    <div className="flex items-start gap-3">
-  <span className="text-green-600 font-bold">✓</span>
-  <span>You are wondering what the next chapter of your life should be.</span>
-</div>
-  </li>
+        <li className="leading-relaxed">
+          <div className="flex items-start gap-3">
+            <span className="text-green-600 font-bold shrink-0">✓</span>
+            <span>
+              You have built a successful career, yet feel that something meaningful is missing.
+            </span>
+          </div>
+        </li>
 
-  <li className="leading-relaxed">
-    
-    <div className="flex items-start gap-3">
-  <span className="text-green-600 font-bold">✓</span>
-  <span>You want greater clarity, purpose, and fulfillment.</span>
-</div>
-  </li>
+        <li className="leading-relaxed">
+          <div className="flex items-start gap-3">
+            <span className="text-green-600 font-bold shrink-0">✓</span>
+            <span>
+              You are asking, “What do I want the next chapter of my life to be?”
+            </span>
+          </div>
+        </li>
 
-  <li className="leading-relaxed">
-    
-    <div className="flex items-start gap-3">
-  <span className="text-green-600 font-bold">✓</span>
-  <span>You feel called to make a deeper contribution beyond career success.</span>
-</div>
-  </li>
+        <li className="leading-relaxed">
+          <div className="flex items-start gap-3">
+            <span className="text-green-600 font-bold shrink-0">✓</span>
+            <span>
+              You are navigating a career transition and want your next step to feel meaningful and aligned.
+            </span>
+          </div>
+        </li>
 
-  <li className="leading-relaxed">
-    
-    <div className="flex items-start gap-3">
-  <span className="text-green-600 font-bold">✓</span>
-  <span>You want your life and work to reflect your core values.</span>
-</div>
-  </li>
+        <li className="leading-relaxed">
+          <div className="flex items-start gap-3">
+            <span className="text-green-600 font-bold shrink-0">✓</span>
+            <span>
+              You want greater clarity about your purpose, values, and direction.
+            </span>
+          </div>
+        </li>
 
-  <li className="leading-relaxed">
-    
-    <div className="flex items-start gap-3">
-  <span className="text-green-600 font-bold">✓</span>
-  <span>You are seeking meaningful personal transformation and lasting growth.</span>
-</div>
-  </li>
+        <li className="leading-relaxed">
+          <div className="flex items-start gap-3">
+            <span className="text-green-600 font-bold shrink-0">✓</span>
+            <span>
+              You want your work, leadership, and life to reflect what matters most to you.
+            </span>
+          </div>
+        </li>
 
-</ul>
+        <li className="leading-relaxed">
+          <div className="flex items-start gap-3">
+            <span className="text-green-600 font-bold shrink-0">✓</span>
+            <span>
+              You want to lead with greater purpose, authenticity, and positive impact.
+            </span>
+          </div>
+        </li>
+
+        <li className="leading-relaxed">
+          <div className="flex items-start gap-3">
+            <span className="text-green-600 font-bold shrink-0">✓</span>
+            <span>
+              You feel called to make a deeper contribution beyond professional success.
+            </span>
+          </div>
+        </li>
+
+        <li className="leading-relaxed">
+          <div className="flex items-start gap-3">
+            <span className="text-green-600 font-bold shrink-0">✓</span>
+            <span>
+              You are exploring inner or spiritual growth while staying grounded in everyday life.
+            </span>
+          </div>
+        </li>
+
+      </ul>
 
     </div>
 
   </div>
-</section>
-      <section
+</section>      <section
   id="services"
   className="px-6 py-20"
 >
