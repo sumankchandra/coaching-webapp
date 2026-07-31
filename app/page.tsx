@@ -61,13 +61,16 @@ if (!error) {
     </a>
 
     <a href="#about" className="hover:text-gray-600">
-      About
-    </a>
+  About
+</a>
 
-    <a href="#testimonials" className="hover:text-gray-600">
-      Testimonials
-    </a>
+<a href="/insights" className="hover:text-gray-600">
+  Insights
+</a>
 
+<a href="#testimonials" className="hover:text-gray-600">
+  Testimonials
+</a>
     <a href="#contact" className="hover:text-gray-600">
       Contact
     </a>
