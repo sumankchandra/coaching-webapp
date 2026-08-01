@@ -1,8 +1,8 @@
 'use client'
 
 import { useState } from 'react'
+import { FaLinkedin, FaInstagram, FaEnvelope } from 'react-icons/fa'
 import { supabase } from '@/lib/supabase'
-
 export default function Home() {
   const [fullName, setFullName] = useState('')
   const [email, setEmail] = useState('')
@@ -385,47 +385,56 @@ if (!error) {
 <p className="text-2xl font-medium text-center text-slate-800 mb-10 leading-relaxed">
   Hi, I'm Suman.
   <br />
-  I help professionals discover their life purpose,
-align their lives with their values, and create a meaningful next
-chapter filled with clarity, fulfillment, and growth.
+  I help professionals rediscover their purpose, align their lives with
+  their values, and design a meaningful next chapter with clarity,
+  fulfillment, and intention.
 </p>
-   <div className="bg-white rounded-2xl p-8 shadow-sm">
+
+<div className="bg-white rounded-2xl p-8 shadow-sm">
 
   <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-    Over the last 25+ years, I have worked with professionals,
-    leaders, and teams through periods of growth, change,
-    uncertainty, and transformation.
+    For over 25 years, I have worked alongside professionals, leaders,
+    and teams navigating growth, change, uncertainty, and transformation.
   </p>
 
   <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-    Throughout that journey, I observed a common challenge.
-    Many successful people achieve external success yet still
-    find themselves asking deeper questions:
+    Through that journey, I discovered a common experience among many
+    accomplished professionals. They achieve the success they worked hard
+    for, yet at some point begin asking deeper questions about meaning,
+    fulfillment, and what comes next.
   </p>
 
   <div className="bg-slate-50 border-l-4 border-slate-700 p-6 rounded-lg mb-6">
+
     <p className="italic text-lg text-slate-700 mb-2">
-      "What do I really want?"
+      "Is this the life I truly want?"
     </p>
 
     <p className="italic text-lg text-slate-700 mb-2">
-      "What's next for me?"
+      "What is my next meaningful chapter?"
     </p>
 
     <p className="italic text-lg text-slate-700">
-      "How can I live a more meaningful and fulfilling life?"
+      "How can I create a life aligned with who I truly am?"
     </p>
+
   </div>
 
+  <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+    These questions are not signs of failure. They are often signs of
+    growth — an opportunity to pause, reflect, and reconnect with what
+    truly matters.
+  </p>
+
   <p className="text-lg text-gray-700 leading-relaxed">
-    My coaching combines practical life experience, deep listening,
-    powerful questions, and structured accountability to help
-    clients gain clarity, align their lives with their values,
-    and take meaningful action toward the future they truly want.
+    My coaching combines real-world leadership experience, deep listening,
+    powerful questions, and structured accountability to help clients gain
+    clarity, reconnect with their values, discover their purpose, and take
+    meaningful action toward a future they genuinely want to create.
   </p>
 
 </div>
-  </div>
+</div>
 </section>
 {/* Testimonials Section */}
 <section
@@ -575,32 +584,38 @@ chapter filled with clarity, fulfillment, and growth.
 </p>
     <div className="flex justify-center gap-6 mb-6">
 
-      <a
-        href="https://www.linkedin.com/in/sumankchandra"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="hover:text-gray-300"
-      >
-        LinkedIn
-      </a>
+  
+  {/* LinkedIn */}
+<a
+  href="https://www.linkedin.com/company/anvesha-coaching-llc/"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="hover:text-gray-300 transition-colors"
+>
+  <FaLinkedin className="w-6 h-6" />
+</a>
 
-    <a
+{/* Instagram */}
+<a
+  href="https://www.instagram.com/anveshacoaching"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="hover:text-gray-300 transition-colors"
+>
+  <FaInstagram className="w-6 h-6" />
+</a>
+
+{/* Email */}
+<a
   href="https://mail.google.com/mail/?view=cm&fs=1&to=sumankchandra@gmail.com"
   target="_blank"
   rel="noopener noreferrer"
-  className="hover:text-gray-300"
+  className="hover:text-gray-300 transition-colors"
 >
-  Email
+  <FaEnvelope className="w-6 h-6" />
 </a>
-      <a
-        href="#contact"
-        className="hover:text-gray-300"
-      >
-        Contact
-      </a>
 
-    </div>
-
+</div>
     <p className="text-sm text-gray-400">
       © {new Date().getFullYear()} Anvesha Coaching. All rights reserved.
     </p>
