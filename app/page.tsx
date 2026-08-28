@@ -1,5 +1,6 @@
 'use client'
 
+import Image from "next/image";
 import { useState } from 'react'
 import { FaLinkedin, FaInstagram, FaEnvelope } from 'react-icons/fa'
 import { supabase } from '@/lib/supabase'
@@ -51,29 +52,58 @@ if (!error) {
   return (
     <main className="min-h-screen bg-white text-gray-900">
       <nav className="sticky top-0 bg-white border-b shadow-sm z-50">
-  <div className="max-w-6xl mx-auto px-6 py-4 flex justify-center gap-8 text-sm md:text-base font-medium">
-    <a href="#home" className="hover:text-gray-600">
-      Home
-    </a>
+  <div className="max-w-7xl mx-auto px-4 md:px-6 py-3">
 
-    <a href="#services" className="hover:text-gray-600">
-      Services
-    </a>
+    <div className="flex flex-col md:flex-row items-center justify-between gap-3">
 
-    <a href="#about" className="hover:text-gray-600">
-  About
-</a>
+      {/* Logo */}
+      <a
+        href="#home"
+        className="shrink-0"
+        aria-label="Anvesha Coaching Home"
+      >
+        <div className="relative w-[200px] h-[70px]">
+          <Image
+            src="/images/Anvesha-logo.png"
+            alt="Anvesha Coaching"
+            fill
+            className="object-contain"
+            priority
+          />
+        </div>
+      </a>
 
-<a href="/insights" className="hover:text-gray-600">
-  Insights
-</a>
+      {/* Navigation Links */}
+      <div className="flex flex-wrap justify-center gap-x-5 gap-y-2 text-sm md:text-base font-medium">
 
-<a href="#testimonials" className="hover:text-gray-600">
-  Testimonials
-</a>
-    <a href="#contact" className="hover:text-gray-600">
-      Contact
-    </a>
+        <a href="#home" className="hover:text-gray-600">
+          Home
+        </a>
+
+        <a href="#services" className="hover:text-gray-600">
+          Services
+        </a>
+
+        <a href="#about" className="hover:text-gray-600">
+          About
+        </a>
+
+        <a href="/insights" className="hover:text-gray-600">
+          Insights
+        </a>
+
+        <a href="#testimonials" className="hover:text-gray-600">
+          Testimonials
+        </a>
+
+        <a href="#contact" className="hover:text-gray-600">
+          Contact
+        </a>
+
+      </div>
+
+    </div>
+
   </div>
 </nav>
 {/* Hero Section */}
@@ -86,14 +116,9 @@ if (!error) {
     {/* Left Column */}
     <div className="max-w-none">
 
-      <p className="text-3xl md:text-4xl font-serif font-bold tracking-[0.12em] text-indigo-900">
-  ANVESHA
-  <span className="ml-2 text-xl md:text-2xl font-sans font-medium tracking-normal text-slate-600">
-    Coaching
-  </span>
-</p>
+  
 
-      <h1 className="mt-5 text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.05] text-slate-800">
+      <h1 className="mt-0 text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.05] text-slate-800">
   <span className="whitespace-nowrap">
     Discover Your Purpose.
   </span>
