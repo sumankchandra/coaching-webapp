@@ -1,6 +1,17 @@
 import Link from "next/link";
 
+
 const insights = [
+  {
+    category: "PERSONAL TRANSFORMATION",
+    title:
+      "Transformation Isn't Glamorous. It's Boring. That's Exactly Why You Stick With It.",
+    description:
+      "A personal reflection on how clearing fallen leaves from a yard revealed an important truth about transformation: meaningful progress comes from breaking challenges into smaller steps, staying consistent, and trusting the process even when results aren't immediately visible.",
+    date: "November 2026",
+    readTime: "4 min read",
+    href: "/insights/transformation-isnt-glamorous",
+  },
   {
     category: "PURPOSE VS. CAREER",
     title: "Your Job Isn't Your Purpose — But It Can Be Part of It",
@@ -30,6 +41,7 @@ const insights = [
     href: "/insights/from-dark-green-to-clear-blue",
   },
 ];
+
 
 export default function InsightsPage() {
   return (

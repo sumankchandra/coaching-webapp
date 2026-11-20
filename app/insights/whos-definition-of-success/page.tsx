@@ -43,7 +43,7 @@ export default function WhoseDefinitionOfSuccessPage() {
         <div className="max-w-4xl mx-auto text-center">
 
           <p className="text-sm font-semibold tracking-wider text-indigo-900 uppercase mb-5">
-            Purpose & Meaningful Living
+            Purpose & Success
           </p>
 
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-slate-800 leading-tight">
