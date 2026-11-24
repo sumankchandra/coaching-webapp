@@ -1,4 +1,5 @@
 import Link from "next/link";
+import ArticleComments from "@/components/ArticleComments";
 
 export default function DarkGreenToClearBluePage() {
 return (
@@ -489,6 +490,7 @@ Home
       </p>
 
     </div>
+    <ArticleComments articleSlug="from-dark-green-to-clear-blue" />
   </article>
 
   {/* Closing Reflection */}

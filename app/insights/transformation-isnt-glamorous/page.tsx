@@ -1,5 +1,6 @@
 
 import Link from "next/link";
+import ArticleComments from "@/components/ArticleComments";
 
 export default function TransformationIsntGlamorousPage() {
   return (
@@ -196,6 +197,7 @@ export default function TransformationIsntGlamorousPage() {
           </p>
 
         </div>
+        <ArticleComments articleSlug="transformation-isnt-glamorous" />
       </article>
 
       {/* Closing Reflection */}

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import ArticleComments from "@/components/ArticleComments";
 
 export default function WhoseDefinitionOfSuccessPage() {
   return (
@@ -279,6 +280,7 @@ export default function WhoseDefinitionOfSuccessPage() {
           </div>
 
         </div>
+        <ArticleComments articleSlug="whos-definition-of-success" />
       </article>
 
       {/* Back to Insights */}

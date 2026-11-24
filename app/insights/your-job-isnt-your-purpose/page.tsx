@@ -1,4 +1,6 @@
+
 import Link from "next/link";
+import ArticleComments from "@/components/ArticleComments";
 
 export default function YourJobIsntYourPurposePage() {
   return (
@@ -271,6 +273,9 @@ export default function YourJobIsntYourPurposePage() {
               Explore Coaching
             </Link>
           </div>
+
+          {/* Reader Comments */}
+          <ArticleComments articleSlug="your-job-isnt-your-purpose" />
         </div>
       </article>
 

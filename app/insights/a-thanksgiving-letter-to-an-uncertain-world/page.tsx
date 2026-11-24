@@ -1,5 +1,6 @@
 
 import Link from "next/link";
+import ArticleComments from "@/components/ArticleComments";
 
 export default function ThanksgivingLetterPage() {
   return (
@@ -191,6 +192,7 @@ export default function ThanksgivingLetterPage() {
             everyone still finding their way.
           </p>
         </div>
+        <ArticleComments articleSlug="a-thanksgiving-letter-to-an-uncertain-world" />
       </article>
 
       {/* Closing Reflection */}
