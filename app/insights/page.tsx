@@ -2,6 +2,17 @@ import Link from "next/link";
 
 
 const insights = [
+
+  {
+    category: "PURPOSE & MEANINGFUL LIVING",
+    title: "A Thanksgiving Letter to an Uncertain World",
+    description:
+      "A reflection on finding purpose, meaning, and the courage to transform ourselves in an increasingly uncertain world.",
+    date: "November 2026",
+    readTime: "5 min read",
+    href: "/insights/a-thanksgiving-letter-to-an-uncertain-world",
+  },
+
   {
     category: "PERSONAL TRANSFORMATION",
     title:
